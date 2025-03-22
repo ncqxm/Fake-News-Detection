@@ -24,6 +24,12 @@ def preprocess(text):
     return " ".join(cleaned)
 
 # UI
+st.set_page_config(
+    page_title="Fake News Detector 📰",
+    page_icon="🧠",
+    layout="centered"
+)
+
 st.title("Fake News Detector")
 st.markdown("ใส่ข่าวแล้วดูว่าเป็น **ข่าวจริงหรือข่าวปลอม**")
 
